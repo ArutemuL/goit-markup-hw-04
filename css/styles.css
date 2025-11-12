@@ -278,7 +278,8 @@ overflow: hidden;
     background-color: #4D5AE5;
 }
 
-.team-social-link:hover, .team-social-link:focus {
+.team-social-link:hover, 
+.team-social-link:focus {
     background-color: #404BBF;
 }
 
@@ -501,8 +502,8 @@ overflow: hidden;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-li a:hover, 
-.icon-li a:focus{
+.icon-li a:hover,
+.icon-li a:focus {
 background-color: #31d0aa;
 }
 
