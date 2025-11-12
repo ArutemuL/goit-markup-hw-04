@@ -298,6 +298,23 @@ overflow: hidden;
 .team-li {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
+}
+
+.icons-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icons-link a:hover,
+.icons-link a:focus {
+    background-color: #404bbf;
 }
 
 .team-div {
@@ -349,6 +366,7 @@ overflow: hidden;
     column-gap: 24px;
     row-gap: 48px;
     flex-wrap: wrap;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-div-text {
@@ -393,6 +411,16 @@ overflow: hidden;
     background-color: #4d5ae5;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-list:hover .overly,
+.portfolio-list:focus .overly {
+    transform: translateY(0);
+}
+
+.portfolio-list:hover,
+.portfolio-list:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .footer {
